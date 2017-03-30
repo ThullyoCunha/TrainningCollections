@@ -6,7 +6,6 @@ import java.util.ArrayList;
 public class exec01 {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		//Criando uma lista e determinando que o tipo do objeto que ela vai conter será String;
 		List<String> list = new ArrayList<>();

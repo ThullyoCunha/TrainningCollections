@@ -10,18 +10,12 @@ public class Execute {
 		
 		List<CurrentAccount> contas = new ArrayList<>();
 		
+		contas.add(new CurrentAccount(150.0, "Thullyo", "1.111.111"));
 		
-		
-		CurrentAccount c1 = new CurrentAccount(150.0, "Thullyo", "1.111.111");
-		
-		CurrentAccount c2 = new CurrentAccount(200.0, "Breno", "2.222.222");
+		contas.add(new CurrentAccount(200.0, "Breno", "2.222.222"));
 
-		CurrentAccount c3 = new CurrentAccount(500.0, "Alan", "3.333.333");
-	    
-	    contas.add(c1);
-	    contas.add(c3);
-	    contas.add(c2);
-	    
+		contas.add(new CurrentAccount(500.0, "Alan", "3.333.333"));
+	  	    
 	    Collections.sort(contas);
 	    
 	    for (CurrentAccount conta: contas) {
